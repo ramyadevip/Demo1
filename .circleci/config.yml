@@ -22,7 +22,7 @@ jobs:
             - ~/.cache
       - run:
           name: Build
-          command: npm run build:client:prod
+          command: npm run client:build:prod
 
 workflows:
   version: 2
